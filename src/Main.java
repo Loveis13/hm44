@@ -4,9 +4,15 @@ public class Main {
         /// task1
 
         int clientOS = 0;
+<<<<<<< HEAD
         if (clientOS >= 1 == clientOS < 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         } else if (clientOS <= 0) {
+=======
+        if (clientOS == 0) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        } else if (clientOS == 1) {
+>>>>>>> 35afe34 (commit new)
             System.out.println("«Установите версию приложения для Android по ссылке».");
         }
 
@@ -19,8 +25,14 @@ public class Main {
             System.out.println("Установите версию для Android по ссылке");
         } else if (clientOSS == 0 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+<<<<<<< HEAD
         } else
             System.out.println("Установите версию для iOS по сслыке");
+=======
+        } else System.out.println("Установите версию для iOS по сслыке");{
+
+        }
+>>>>>>> 35afe34 (commit new)
 
 
         ///task3
